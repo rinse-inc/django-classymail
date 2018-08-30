@@ -2,7 +2,7 @@ from django.conf import settings
 from django.contrib.sites.models import Site
 from django.core.exceptions import ImproperlyConfigured
 from django.utils import timezone, translation
-from django.utils.importlib import import_module
+from importlib import import_module
 
 
 class isolate_timezone(object):
